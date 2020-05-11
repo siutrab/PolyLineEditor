@@ -26,5 +26,6 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	Controler applicationControler(windowSize, windowTitle, backgroundColor, polyLineColor, peakPointColor);	// core of application
 
 	glutMainLoop();																								// always after Controler initialization
+	
 	return 0;
 }
